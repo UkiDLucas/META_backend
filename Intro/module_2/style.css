@@ -1,0 +1,26 @@
+h1 {
+    color: purple;
+}
+
+a{
+    color: burlywood;
+}
+
+
+
+
+/** class selectors */
+.navigation{
+    color: red;
+    /* background-color: #f4f4f4; */
+    padding-top: 20px;
+    margin-top: 2
+    px;
+}
+
+
+/* id selectors */
+#a1{
+    color: blue;
+}
+
