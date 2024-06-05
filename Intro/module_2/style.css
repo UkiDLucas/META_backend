@@ -2,25 +2,18 @@ h1 {
     color: purple;
 }
 
-a{
-    color: burlywood;
-}
-
-
-
+div{ color: burlywood; }
 
 /** class selectors */
-.navigation{
-    color: red;
-    /* background-color: #f4f4f4; */
-    padding-top: 20px;
-    margin-top: 2
-    px;
-}
+.c1{ color: red;}
 
 
 /* id selectors */
-#a1{
-    color: blue;
-}
+#i1{ color: blue;}
+
+/* element class selectors */
+div.i2{ color: green; }
+
+/* element id selectors */
+div#i3{ color: yellow; }
 
