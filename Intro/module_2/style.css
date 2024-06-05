@@ -1,19 +1,23 @@
-h1 {
-    color: purple;
-}
-
+/** element selectors */
 div{ color: burlywood; }
 
 /** class selectors */
 .c1{ color: red;}
 
-
 /* id selectors */
 #i1{ color: blue;}
 
-/* element class selectors */
-div.i2{ color: green; }
+/* element with class selectors */
+div.c2{ color: green; }
 
-/* element id selectors */
-div#i3{ color: yellow; }
+/* element with id selectors */
+div#i3{ color: purple; }
 
+/* descendant selectors */
+#i3 div { color: orange; }
+#i3 div p { color: pink; }
+
+/* child selectors */
+#i3 > p { color: tomato }
+
+div:hover {color: teal }
