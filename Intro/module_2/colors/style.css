@@ -1,0 +1,13 @@
+/** element selectors */
+div{ color: burlywood; }
+
+/** class selectors */
+.cl1{ color: red;}
+.cl2{ color: rgb(255, 0, 0); }
+.cl3{ color: #ff0000; }
+.cl4{ color: hsl(0, 100%, 50%); }
+.cl5{ color: hsla(0, 100%, 50%, 0.5); }
+.cl6{ color: rgba(255, 0, 0, 0.5); }
+.cl7{ color: transparent; }
+
+div:hover {color: teal }
